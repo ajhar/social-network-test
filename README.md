@@ -1,7 +1,7 @@
 # Setup Application
 
    ```bash
-   git clone https://github.com/ajhar/social-network-test
+   git clone https://github.com/ajhar/social-network-test.git
    cd <project directory>
    composer install
    cp .env.example .env
