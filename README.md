@@ -1,3 +1,17 @@
+# Setup Application
+
+   ```bash
+   git clone https://github.com/ajhar/social-network-test
+   cd <project directory>
+   composer install
+   cp .env.example .env
+   php artisan key:generate
+   php artisan serve
+   ```
+
+Do not forget to create database and update the credentials in .env file
+
+
 ## Database Schema Design
 
 Please refer to the following diagram for the database schema design and sample sql dump under database/schema directory 
