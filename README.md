@@ -6,11 +6,14 @@
    composer install
    cp .env.example .env
    php artisan key:generate
+   php artisan migrate
    php artisan serve
    ```
 
 Do not forget to create database and update the credentials in .env file
 
+Please Note:
+```php artisan migrate ``` command will only populate the tables. For testing, you have to enter test data. Alternatively, you can use the attached MySQL dump under the database/schema folder.
 
 ## Database Schema Design
 
