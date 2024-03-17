@@ -8,9 +8,9 @@ Please refer to the following diagram for the database schema design: [Database 
 
 **SQL Query:**
 ```sql
-SELECT messages.message, messages.sender_id, users.profile_picture
+SELECT messages.content, messages.sender_id, users.profile_picture_path
 FROM messages
-INNER JOIN users ON messages.sender_id = users.id
+         INNER JOIN users ON messages.sender_id = users.id
 WHERE (messages.sender_id = X AND messages.receiver_id = Y)
    OR (messages.sender_id = Y AND messages.receiver_id = X);
 ```
