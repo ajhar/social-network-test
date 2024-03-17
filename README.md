@@ -80,5 +80,10 @@ Please refer to the solution in the code route: `/get_friends_of_friends/{id}`
 <br/>
 <br/>
 <br/>
-<br/>
-**Note:** Each endpoint result is passed to the `dd()` function to clearly see the results.
+**Note:** Each endpoint result is passed to the `dd()` function to clearly see the results. Alternatively, you can use `print_r()` to check the collection.
+
+````
+$response = Message::getAllMessageList($fromId, $toId);
+print_r($response);
+print_r($response->toArray());
+````
