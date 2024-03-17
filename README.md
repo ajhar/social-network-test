@@ -1,6 +1,6 @@
 ## Database Schema Design
 
-Please refer to the following diagram for the database schema design: [Database Schema](https://drive.google.com/file/d/1CUKk8zjnmTbKPQe92OJ85h4b_aGVG2LY/view?usp=sharing)
+Please refer to the following diagram for the database schema design and sample sql dump under database/schema directory 
 
 ## Queries and ORM Equivalents
 
